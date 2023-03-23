@@ -1,0 +1,122 @@
+.coming-soon-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0d6efd, #003b77);
+  }
+  
+  .header {
+    text-align: center;
+    font-family: Verdana;
+    font-size: xx-large;
+    color: white;
+  }
+  
+  .h1 {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    color: #0d6efd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .counter {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #0d6efd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  .h2 {
+    font-size: 2.5rem;
+    color: #e2e2e2;
+    text-align: center;
+
+  }
+  
+  .p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1.5rem;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .input[type="email"] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+  }
+  
+  .button[type="submit"] {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button[type="submit"]:hover {
+    background-color: #0052cc;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .p {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* ComingSoonPage.css */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 14px;
+  }
+  
+  .logo-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0d6efd;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
